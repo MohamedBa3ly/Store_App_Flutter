@@ -1,6 +1,6 @@
 # 🛍️ Store App
 
-A Flutter E-commerce App built with Jetpack Compose, Bloc state management, and an API-powered product catalog. Users can browse categories, view products, and filter items seamlessly.
+Store App built with Flutter, Bloc state management, and an API-powered product catalog.
 
 ## ✨ Features
 - 🚀 **Fast & Responsive UI** – Uses Bloc for smooth state management.
