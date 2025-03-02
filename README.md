@@ -13,7 +13,7 @@ Store App built with Flutter, Bloc state management, and an API-powered product 
 
 ## 📸 Screenshots
 Here are some screenshots of the app:
-screenshots/Screenshot_20250302_065542.png
+![Home Screen](screenshots/Screenshot_20250302_065542.png)
 
 ---
 
