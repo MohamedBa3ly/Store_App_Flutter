@@ -12,8 +12,9 @@ Store App built with Flutter, Bloc state management, and an API-powered product 
 - **REST API** for fetching products & categories
 
 ## 📸 Screenshots
-Here are some screenshots of the app:
 <img src="assets/screenshots/Screenshot_20250302_065542.png" width="300">
+<img src="assets/screenshots/Screenshot_20250302_065633.png" width="300">
+<img src="assets/screenshots/Screenshot_20250302_065721.png" width="300">
 
 ---
 
