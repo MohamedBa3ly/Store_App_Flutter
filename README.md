@@ -1,21 +1,23 @@
-<<<<<<< HEAD
-# Store_App_Flutter
-Store App built using Flutter and Bloc state management.
-=======
-# store_app
+# 🛍️ Store App
 
-A new Flutter project.
+A Flutter E-commerce App built with Jetpack Compose, Bloc state management, and an API-powered product catalog. Users can browse categories, view products, and filter items seamlessly.
 
-## Getting Started
+## ✨ Features
+- 🚀 **Fast & Responsive UI** – Uses Bloc for smooth state management.
+- 📦 **API Integration** – Fetches products dynamically.
 
-This project is a starting point for a Flutter application.
+## 🛠️ Tech Stack
+- **Flutter & Dart**
+- **Bloc (flutter_bloc)** for state management
+- **REST API** for fetching products & categories
 
-A few resources to get you started if this is your first Flutter project:
+## 📸 Screenshots
+Here are some screenshots of the app:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
->>>>>>> 667dde7 (home and favourite)
+## 🚀 Getting Started
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/MohamedBa3ly/Store_App_Flutter.git
+
