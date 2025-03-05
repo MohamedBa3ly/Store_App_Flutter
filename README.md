@@ -1,6 +1,6 @@
 # 🛍️ Store App
 
-Store App built with Flutter, Bloc state management, and an API-powered product catalog.
+Store App built with Flutter, Bloc state management, and fetches categories and products using an API, ensuring a seamless browsing experience.
 
 ## ✨ Features
 - 🚀 **Fast & Responsive UI** – Uses Bloc for smooth state management.
@@ -13,7 +13,7 @@ Store App built with Flutter, Bloc state management, and an API-powered product 
 
 ## 📸 Screenshots
 <img src="assets/screenshots/Screenshot_20250302_065542.png" width="300">
-<img src="assets/screenshots/Screenshot_20250302_065633.png" width="300">
+<img src="assets/screenshots/Screenshot_20250302_071359.png" width="300">
 <img src="assets/screenshots/Screenshot_20250302_065721.png" width="300">
 
 ---
