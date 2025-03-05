@@ -36,7 +36,7 @@ class ProductCard extends StatelessWidget {
                 children: [
                   ClipRRect(
                     borderRadius: BorderRadius.vertical(top: Radius.circular(10)),
-                    child: Image.network(product.image, height: 100, width: 100),
+                    child: Image.network(product.image, height: 90, width: 90),
                   ),
                   Padding(
                     padding: const EdgeInsets.all(8.0),

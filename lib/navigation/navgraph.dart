@@ -2,9 +2,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:store_app/navigation/screen.dart';
+import 'package:store_app/ui/add/add_product.dart';
+import 'package:store_app/ui/update/update_product.dart';
 
 import '../cubits/categories_chip_change/chip_change_cubit.dart';
 import '../cubits/favourite_icon_change/favourite_icon_cubit.dart';
+import '../model/product_model.dart';
 import '../ui/cart/cart.dart';
 import '../ui/details/details.dart';
 import '../ui/favourites/favourites.dart';
@@ -48,7 +51,9 @@ class MainScreenState extends State<MainScreen> {
     BottomNavigationScreen.information.route : (context) => FavouritesScreen(),
     BottomNavigationScreen.cart.route : (context) => CartScreen(),
     BottomNavigationScreen.settings.route : (context) => SettingsScreen(),
-    InitialScreens.details : (context) => DetailsScreen()
+    InitialScreens.details : (context) => DetailsScreen(),
+    InitialScreens.add : (context) => AddProductScreen(),
+    InitialScreens.update : (context) => UpdateProductScreen()
 
   };
 
@@ -69,6 +74,13 @@ class MainScreenState extends State<MainScreen> {
         onGenerateRoute: (settings) {
           final routeName = settings.name ?? BottomNavigationScreen.home.route;
           final screenBuilder = _routes[routeName];
+
+          if (routeName == InitialScreens.update) {
+            final product = settings.arguments as ProductModel?;
+            return MaterialPageRoute(
+              builder: (context) => UpdateProductScreen(product: product),
+            );
+          }
 
           return MaterialPageRoute(
             builder: (context) {

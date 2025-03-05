@@ -5,6 +5,7 @@ import 'package:store_app/services/get_all_product_service.dart';
 import 'package:store_app/utils/colors.dart';
 import '../../cubits/categories_chip_change/chip_change_cubit.dart';
 import '../../cubits/categories_chip_change/chip_change_state.dart';
+import '../../navigation/screen.dart';
 import '../../services/get_all_categories_name_service.dart';
 import '../../services/get_called_category_service.dart';
 import '../widget/product_widget.dart';
@@ -28,6 +29,15 @@ class HomeScreen extends StatelessWidget {
         elevation: 4.0,
         centerTitle: true,
         automaticallyImplyLeading: false, // Remove the back arrow
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          // Navigate to the add screen
+          Navigator.pushNamed(context, InitialScreens.add);
+
+        },
+        backgroundColor: AppColors.orange,
+        child: const Icon(Icons.add, color: Colors.white),
       ),
       body: Padding(
         padding: const EdgeInsets.all(8.0),
@@ -114,7 +124,8 @@ class HomeScreen extends StatelessWidget {
                             return ProductCard(
                               product: products[index],
                               onClick: () {
-                                print("object");
+                                Navigator.pushNamed(context, InitialScreens.update, arguments: products[index] );
+
                               },
                             );
                           },

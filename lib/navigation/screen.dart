@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 
 class InitialScreens {
   static const String details = "details_screen";
+  static const String add = "add_screen";
+  static const String update = "update_screen";
 }
 
 
