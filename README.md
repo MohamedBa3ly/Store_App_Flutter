@@ -18,8 +18,4 @@ Store App built with Flutter, Cubit for state management, and fetches categories
 
 ---
 
-## 🚀 Getting Started
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/MohamedBa3ly/Store_App_Flutter.git
 
